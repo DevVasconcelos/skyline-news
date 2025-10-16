@@ -1,0 +1,7 @@
+# GitHub Pages configuration
+# Disable Jekyll processing
+include:
+  - _headers
+  - .htaccess
+
+plugins: []
