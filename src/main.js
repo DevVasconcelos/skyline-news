@@ -9,13 +9,10 @@ console.log('User Agent:', navigator.userAgent);
 
 // Verify DOM is ready
 console.log('DOM State:', document.readyState);
-
+const API_KEY = 'eQXmmahM2v1pEMNk25PtkDDniEGgy41q';
 // Test API availability
 console.log('Testing NY Times API connection...');
 console.log('API Key present:', API_KEY ? 'Yes' : 'No');
-
-// NY Times API Integration
-const API_KEY = 'eQXmmahM2v1pEMNk25PtkDDniEGgy41q';
 
 const API_ENDPOINTS = {
     mostViewed: `https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key=${API_KEY}`,
